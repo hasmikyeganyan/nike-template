@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header .top {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 10px 50px;
+}
+header .top .left {
+  float: left;
+}
+header .top .right {
+  float: right;
+}
+header .top ul {
+  display: flex;
+  gap: 10px;
+}
+header .top ul li a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+header .main {
+  overflow: hidden;
+  padding: 10px 50px;
+}
+header .main .left {
+  float: left;
+}
+header .main ul {
+  display: flex;
+  gap: 10px;
+}
+header .main img {
+  width: 50px;
+}
+header .main ul li a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+header .main .right {
+  float: right;
+}
+header .main #burger {
+  display: none;
+}
+.banner-section {
+  text-align: center;
+  margin-top: 50px;
+}
+ /* last 2 digits of my ID card is 57 in hexadecimal it converts to 39
+ my age is 19 in hexadecimal it converts to 13 */
+.banner-section h2 {
+  font-weight: bold;
+  font-size: 45px;
+  color: rgb(39,2,13);
+}
+.banner-section h4 {
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.categories-section {
+  margin-top: 40px;
+  text-align: center;
+}
+.categories-section .wrapper {
+  display: inline-flex;
+  gap: 30px;
+}
+.categories-section .wrapper .couple {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.categories-section .wrapper .couple .item {
+  width: 250px;
+  height: 400px;
+  line-height: 400px;
+  background-size: cover;
+  color: white;
+}
+.categories-section .wrapper .couple .item h4 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.categories-section .wrapper .first .item:nth-child(1) {
+  background-image: url('image_1.png');
+}
+.categories-section .wrapper .first .item:nth-child(2) {
+  background-image: url('image_2.png');
+}
+.categories-section .wrapper .second .item:nth-child(1) {
+  background-image: url('image_3.png');
+}
+.categories-section .wrapper .second .item:nth-child(2) {
+  background-image: url('image_4.png');
+}
+.categories-section .wrapper .couple .item .item-overlay {
+ height: 100%;
+}
+.info-section {
+  margin-top: 100px;
+}
+.info-section {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+.info-section .info {
+  width: 550px;
+}
+.info-section .info p{
+  font-weight: lighter;
+  line-height: 30px;
+  letter-spacing: 2%;
+ 
+}
+.info-section .info h2 {
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.info-section .info p {
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+.info-section .info button {
+  background: black;
+  color: white;
+  padding: 15px 25px;
+  border: 0;
+}
+.info-section .image {
+  width: 550px;
+  text-align: end;
+}
+.info-section img {
+  width: 60%;
+}
+footer {
+  margin-top: 40px;
+  padding: 0px 200px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .left img {
+  width: 200px;
+}
+footer ul {
+  display: flex;
+  gap: 30px;
+}
+footer ul li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  header .top {
+    display: none;
+  }
+  header .main #burger {
+    display: block;
+  }
+  header .main #icons {
+    display: none;
+  }
+  header .main .left ul li {
+    display: none;
+  }
+  .categories-section .wrapper {
+    display: block;
+  }
+  .categories-section .wrapper .second {
+    margin-top: 30px;
+  }
+  .info-section .image {
+    display: none;
+  }
+  .info-section .info {
+    width: 100%;
+  }
+  footer {
+    padding: 0 40px;
+    display: block;
+    background-color:black;
+  }
+  footer .right {
+    display: none;
+  }
+}

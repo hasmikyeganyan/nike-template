@@ -1,0 +1,30 @@
+   
+  612  tar -czf assessment-1.tgz assessment-1
+  613  sudo mv assessment-1.tgz /var/www/html/
+  614  cd /var/www/html/
+  615  ls
+  616  sudo tar -xvf assessment-1.tgz
+  617  ls
+  618  nginx -t
+  619  sudo nginx -t
+  620  sudo nano /etc/hosts
+  621  sudo vim /etc/nginx/sites-enabled/default 
+  622  sudo nano /etc/hosts
+  623  sudo vim /etc/nginx/sites-enabled/default 
+  624  sudo nano /etc/hosts
+  625  sudo vim /etc/nginx/sites-enabled/default 
+  626  sudo nano /etc/hosts
+  627  history
+  628  cd ../..
+  629  cd ../
+  630  cd ./
+  631  cd assessment-1
+  632  cd home
+  633  cd assessmeny-1
+  634  cd assessment-1
+  635  cd /
+  636  history
+  637  cd assessment-1
+  638  history > history.txt
+  639  ls
+  
